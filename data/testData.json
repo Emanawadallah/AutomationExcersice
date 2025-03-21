@@ -1,0 +1,24 @@
+{
+  "URL": "https://automationexercise.com/",
+  "LoginData": {
+    "ValidCredintials":
+    {
+     "Username": "eman",
+      "Password": "123"
+    },
+
+    "InvalidCredintials":
+    {
+      "InvalidUsername" :
+      {
+        "Username": "em",
+        "Password": "123"
+      },
+      "InvalidPassword" :
+      {
+        "Username": "eman",
+        "Password": "1253"
+      }
+    }
+  }
+}
