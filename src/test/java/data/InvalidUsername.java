@@ -1,6 +1,6 @@
 package data;
 
 public class InvalidUsername {
-    String Username;
-    String Password;
+   public String Username;
+   public String Password;
 }

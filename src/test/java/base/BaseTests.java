@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
 import static reader.ReadDataFromJson.dataModel;
 
 public class BaseTests {
-    WebDriver driver;
+     WebDriver driver;
     protected HomePage homePage;
 
     @BeforeClass

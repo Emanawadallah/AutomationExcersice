@@ -1,24 +1,45 @@
 {
   "URL": "https://automationexercise.com/",
-  "LoginData": {
-    "ValidCredintials":
+  "loginData": {
+    "validCredintials":
     {
-     "Username": "eman",
+     "Username": "eman@g.com",
       "Password": "123"
     },
 
-    "InvalidCredintials":
+    "invalidCredintials":
     {
-      "InvalidUsername" :
+      "invalidUsername" :
       {
         "Username": "em",
         "Password": "123"
       },
-      "InvalidPassword" :
+      "invalidPassword" :
       {
         "Username": "eman",
         "Password": "1253"
       }
+    }
+  },
+
+  "registerData": {
+    "regValidCredintials": {
+      "Username": "emann",
+      "Email": "eof@g.com",
+      "Password" : "123",
+      "DaysValue": "2",
+      "MonthsValue": "2",
+      "YearsValue": "2020",
+      "Fname": "em",
+      "Lname": "badar",
+      "Company": "automation",
+      "Address1": "st 1",
+      "Address2": "st 2",
+      "CountryValue": "Canada",
+      "State": "state5",
+      "City": "city6",
+      "Zipcode": "345",
+      "Mobilenum": "123456789"
     }
   }
 }

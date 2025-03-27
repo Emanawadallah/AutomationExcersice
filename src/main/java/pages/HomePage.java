@@ -11,16 +11,13 @@ public class HomePage extends MethodHandles {
     }
     private final By loginPageLink = By.partialLinkText("Signup");
 
+
     public LoginPage clickOnLoginLink()
     {
         click(loginPageLink,5);
         return new LoginPage(driver);
     }
 
-    public RegisterPage clickOnRegisterLink()
-    {
-        click(loginPageLink,5);
-        return new RegisterPage(driver);
-    }
+
 
 }

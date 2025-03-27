@@ -1,6 +1,6 @@
 package data;
 
 public class ValidCredintials {
-    String Username;
-    String Password;
+    public String Username;
+   public String Password;
 }
