@@ -17,6 +17,7 @@ public class LoginPage extends MethodHandles {
     private final By nameField= By.cssSelector("input[type='text']");
     private final By regEmailField= By.cssSelector("input[data-qa='signup-email']");
     private final By regSubmitButton= By.cssSelector("button[data-qa='signup-button']");
+    private final By validationMessage=By.xpath("//p[contains(text(),'Your email or password')]");
 
     public void enterRegName(String name)
     {
@@ -48,13 +49,18 @@ public class LoginPage extends MethodHandles {
 
     public HomeAfterRegAndLogin clickOnSubmitButton()
     {
-        click(submitButton,5);
+        click(submitButton,6);
         return new HomeAfterRegAndLogin(driver);
     }
 
     public String getTitle()
     {
         return webElement(title).getText();
+    }
+
+    public String getValidationMessage()
+    {
+        return webElement(validationMessage).getText();
     }
 
 

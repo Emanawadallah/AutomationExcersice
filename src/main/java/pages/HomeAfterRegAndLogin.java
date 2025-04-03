@@ -11,6 +11,7 @@ public class HomeAfterRegAndLogin extends MethodHandles {
     private final By loggedInText =By.xpath("//a[contains(text(),'Logged in as ')]");
     private final By userName=By.xpath("//a[contains(text(),'Logged in as ')] //b");
     private final By deleteButton=By.xpath("//a[@href='/delete_account'] ");
+    private final By logoutButton=By.xpath("//a[@href='/logout'] ");
 
     public String validateLoggedInText()
     {
@@ -26,6 +27,12 @@ public class HomeAfterRegAndLogin extends MethodHandles {
     {
         click(deleteButton,5);
         return new DeletedAccountPage(driver);
+    }
+
+    public LoginPage clickOnLogoutButton()
+    {
+        click(logoutButton,5);
+        return new LoginPage(driver);
     }
 
 }

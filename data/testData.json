@@ -3,7 +3,8 @@
   "loginData": {
     "validCredintials":
     {
-     "Username": "eman@g.com",
+     "Username": "e@g.com",
+
       "Password": "123"
     },
 
@@ -41,5 +42,12 @@
       "Zipcode": "345",
       "Mobilenum": "123456789"
     }
-  }
+  },
+  "loginDataProvider":
+          [
+            ["eman@g.com","123"],
+            ["e@n.com","1235"],
+            ["h@y.com","123"],
+            ["er@g.com","123"]
+          ]
 }

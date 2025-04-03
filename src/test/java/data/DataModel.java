@@ -6,4 +6,6 @@ public class DataModel {
     public LoginData loginData;
 
     public RegisterData registerData;
+
+    public Object[][] loginDataProvider;
 }
